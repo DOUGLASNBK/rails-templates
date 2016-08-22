@@ -10,6 +10,8 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'will_paginate-bootstrap'
 gem 'will_paginate'
+gem 'pry'
+gem 'jquery-datatables-rails', github: 'rweng/jquery-datatables-rails', ref: 'v3.0.0'
 
 gem_group :production do
   gem 'thin'
